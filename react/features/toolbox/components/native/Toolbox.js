@@ -13,7 +13,6 @@ import { InfoDialogButton } from '../../../invite';
 
 import { isToolboxVisible } from '../../functions';
 
-import AudioMuteButton from '../AudioMuteButton';
 import HangupButton from '../HangupButton';
 
 import OverflowMenuButton from './OverflowMenuButton';
@@ -126,9 +125,6 @@ class Toolbox extends PureComponent<Props> {
                             styles = { buttonStyles }
                             toggledStyles = { toggledButtonStyles } />
                 }
-                <AudioMuteButton
-                    styles = { buttonStyles }
-                    toggledStyles = { toggledButtonStyles } />
                 <HangupButton
                     styles = { hangupButtonStyles } />
                 <VideoMuteButton
